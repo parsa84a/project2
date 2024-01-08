@@ -40,3 +40,12 @@ button:hover{
 
 }
 
+.main{
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 26px 50px;
+}
+
+
