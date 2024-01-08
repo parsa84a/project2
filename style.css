@@ -78,6 +78,11 @@ label{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+#checkbox:checked ~ .login{
+    transform: translateY(-600px);
+
+}
+
 
 
 
