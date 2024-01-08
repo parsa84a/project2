@@ -55,6 +55,17 @@ button:hover{
     height: 100%;
 
 }
+label{
+    color: #ffffff;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    margin: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 
 
