@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(#4A55A2 , #7895CB , #24243e );
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 60%;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    padding: 13px;
+    height: 20px;
+    outline: none;
+    background-color: #e0dede;
+
+}
+button{
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #7895CB;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+button:hover{
+    background-color: #4A55A2;
+
+}
+
+.main{
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 26px 50px;
+}
+#checkbox{
+    display: none;
+}
+.signup{
+    width: 100%;
+    height: 100%;
+
+}
+label{
+    color: #ffffff;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    margin: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login{
+    height: 550px;
+    background-color:#eeeeee;
+    border-radius: 50% / 10%;
+    transform: translateY(-190px);
+    transition: 2s;
+}
+.login label{
+    color: #4A55A2;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#checkbox:checked ~ .login{
+    transform: translateY(-600px);
+
+}
+
+
+
+
+
+
